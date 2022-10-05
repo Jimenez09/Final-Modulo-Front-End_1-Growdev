@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 1.1rem;
+    color: #3B3B40;
+}
+ul{
+    text-align: center;
+    line-height: 50px;
+}
+a{
+    color: #C7CFD9;
+}
+
+#menu{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    background-color: #737272;
+    float: left;
+}
+
+.perfil{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.foto{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border: 7px solid #3B3B40;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+.list{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    font-size: 1.7rem;
+    padding-top: 10% ;
+    overflow: hidden;
+}
+
+.list a{
+    transition: 0.4s;
+}
+
+.list a:hover{
+    color: #3B3B40;
+}
+
+#container{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    background-color: #C7CFD9;
+    float: right;
+    color: #737272;
+}
+
+.cor{
+    color: #3B3B40;
+}
+.name{
+    height: 45%;
+    width: 100%;
+    position: relative;
+    padding-top: 17%;
+    margin-left: 5%;
+}
+
+.description{
+    height: 15%;
+    width: 90%;
+    position: relative;
+    margin-left: 5%;
+}
+
+.text{
+    height: 60%;
+    width: 90%;
+    position: relative;
+    margin-left: 5%; 
+    padding-top: 15%;
+    text-decoration: none;
+}
+
+.ul-text{
+    line-height: 30px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.objetivo{
+    line-height: 30px;
+    text-align: left;
+}
+
+.icons{
+    height: 40%;
+    width: 100%;
+    position:absolute;
+    margin-left: 5%;
+}
+
+.icons a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-color: #737272;
+    color: #C7CFD9;
+    margin: 0 3px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 26px;
+}
+
+.icons a:hover{
+    background-color: #3B3B40;
+}
+
+.icons i{
+    transition: 0.4s all;
+}
+
+.icons a:hover > i{
+    transform: scale(1.3)rotate(26deg);
+}
+
